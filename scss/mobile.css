@@ -1,1 +1,32 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader {
+  background: none;
+  margin-top: 0;
+}
+#mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader .navbar ul {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar li {
+  text-align: center;
+  display: inline;
+}
+#mainheader .navbar .btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background: black;
+  color: #fff;
+}
+#mainheader .navbar .btn:hover {
+  background: grey;
+  color: #000;
+}
+#mainheader .navbar .container {
+  display: block;
+  text-align: center;
+}/*# sourceMappingURL=mobile.css.map */

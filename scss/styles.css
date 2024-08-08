@@ -128,16 +128,18 @@ form button:hover {
   margin-top: -50px;
 }
 #mainheader .navbar .logo {
-  font-size: 1rem;
-  margin: 2rem 0;
+  font-size: 2rem;
+  margin: 3rem 0;
 }
 #mainheader .navbar ul {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 3.5rem;
+  margin-left: -5rem;
 }
 #mainheader .navbar ul li {
   text-align: center;
-  margin-left: 2rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
 }
 #mainheader .navbar .btn {
   width: 200px;
@@ -153,7 +155,8 @@ form button:hover {
   margin: 0 auto;
 }
 #mainheader #showcase .container .showcawse-flex .showcase-content input {
-  height: 35px;
+  width: 300px;
+  height: 37px;
   margin-left: 10px;
 }
 #mainheader #showcase .container .showcawse-flex .showcase-content .btn {
@@ -164,6 +167,38 @@ form button:hover {
   width: 30%;
   margin: 3rem 0;
   line-height: 30px;
+}
+
+#mainheader-2 .navbar {
+  background: blue;
+}
+#mainheader-2 .navbar .logo {
+  font-size: 2rem;
+  margin: 3rem 0;
+  color: #fff;
+}
+#mainheader-2 .navbar ul {
+  display: flex;
+  margin-top: 3.5rem;
+  margin-left: -5rem;
+  color: #fff;
+}
+#mainheader-2 .navbar ul li {
+  text-align: center;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+#mainheader-2 .navbar ul li a {
+  color: #fff;
+}
+#mainheader-2 .navbar .btn {
+  width: 200px;
+  margin-top: 40px;
+}
+#mainheader-2 .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 #footer {

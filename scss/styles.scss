@@ -16,7 +16,7 @@ html, body {
 a {
     text-decoration: none;
     text-transform: capitalize;
-    color: #000;
+ color: #000;
 }
 
 ul {
@@ -125,15 +125,17 @@ form {
     margin-top: -50px;
     .navbar {
         .logo {
-            font-size: 1rem;
-            margin: 2rem 0;
+            font-size: 2rem;
+            margin: 3rem 0;
         }
         ul {
             display: flex;
-            margin-top: 2rem;
+            margin-top: 3.5rem;
+            margin-left: -5rem;
             li {
                 text-align: center;
-                margin-left: 2rem;
+                margin-left: 1rem;
+                font-size: 1.2rem;
             }
         }
         .btn {
@@ -154,7 +156,8 @@ form {
             .showcawse-flex {
                 .showcase-content {
                     input {
-                        height: 35px;
+                        width: 300px;
+                        height: 37px;
                         margin-left: 10px;
                     }
                    .btn {
@@ -168,6 +171,41 @@ form {
                     }
                 }
             }
+        }
+    }
+}
+
+//mainheader
+#mainheader-2 {
+    .navbar {
+        background: blue;
+        .logo {
+            font-size: 2rem;
+            margin: 3rem 0;
+            color: #fff;
+        }
+        ul {
+            display: flex;
+            margin-top: 3.5rem;
+            margin-left: -5rem;
+            color: #fff;
+            li {
+                text-align: center;
+                margin-left: 1rem;
+                font-size: 1.2rem;
+                a {
+                    color: #fff;
+                }
+            }
+        }
+        .btn {
+            width: 200px;
+            margin-top: 40px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
         }
     }
 }
