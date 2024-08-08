@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  text-decoration: underline;
+  color: violet;
+}
+
+::-moz-placeholder {
+  font-family: "Font Awesome";
+  font-weight: 600;
+  content: "/f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome";
+  font-weight: 600;
+  content: "/f007";
+  text-align: right;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 30px 30px;
+  overflow: auto;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+form button {
+  background: #000;
+  color: #fff;
+}
+form button:hover {
+  background: rgba(0, 0, 0, 0.4823529412);
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-1 {
+  background: pink;
+  color: #fff;
+}
+.btn-1:hover {
+  background: rgba(255, 192, 203, 0.595);
+}
+
+.btn-2 {
+  background: #fff;
+  color: #000;
+}
+.btn-2:hover {
+  background: #000;
+  color: #fff;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+}/*# sourceMappingURL=styles.css.map */
