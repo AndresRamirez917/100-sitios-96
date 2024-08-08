@@ -83,21 +83,95 @@ form {
 }
 
 .btn-1 {
-    background: pink;
+    background: rgb(248, 86, 113);
     color: #fff;
+    width: fit-content;
     &:hover {
-        background: rgba(255, 192, 203, 0.595);
+        background: rgba(247, 98, 123, 0.595);
     }
 }
 
 .btn-2 {
     background: #fff;
     color: #000;
+    width: fit-content;
  &:hover {
     background: #000;
     color: #fff;
  }
 }
+
+.title {
+    font-size: 5rem;
+    text-align: left;
+    font-weight: 400;
+    margin: 3rem 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 3rem 0;
+}
+
+//mainheader
+#mainheader {
+    background: url("/img/background-home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    margin-top: -50px;
+    .navbar {
+        .logo {
+            font-size: 1rem;
+            margin: 2rem 0;
+        }
+        ul {
+            display: flex;
+            margin-top: 2rem;
+            li {
+                text-align: center;
+                margin-left: 2rem;
+            }
+        }
+        .btn {
+            width: 200px;
+            margin-top: 40px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+    //showcase
+    #showcase {
+        width: 90%;
+        margin: 0 auto;
+        .container {
+            .showcawse-flex {
+                .showcase-content {
+                    input {
+                        height: 35px;
+                        margin-left: 10px;
+                    }
+                   .btn {
+                    display: inline;
+                    margin-left: 5px;
+                   }
+                    p {
+                        width: 30%;
+                        margin: 3rem 0;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 //footer
 #footer {
