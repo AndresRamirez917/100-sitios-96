@@ -27,14 +27,14 @@ ul {
 }
 
 ::-moz-placeholder {
-  font-family: "Font Awesome";
+  font-family: "Font Awesome 5 free";
   font-weight: 600;
   content: "/f007";
   text-align: right;
 }
 
 ::placeholder {
-  font-family: "Font Awesome";
+  font-family: "Font Awesome 5 free";
   font-weight: 600;
   content: "/f007";
   text-align: right;
@@ -67,11 +67,20 @@ form .form-control {
   border-radius: 5px;
 }
 form button {
+  width: 100%;
   background: #000;
   color: #fff;
 }
 form button:hover {
   background: rgba(0, 0, 0, 0.4823529412);
+}
+form input:focus {
+  outline: none;
+  border: 1px solid #0459c7;
+}
+form textarea:focus {
+  outline: none;
+  border: 1px solid #0459c7;
 }
 
 .btn {
@@ -114,6 +123,7 @@ form button:hover {
 
 .subtitle {
   text-align: center;
+  text-transform: capitalize;
   font-size: 2rem;
   font-weight: 300;
   margin: 3rem 0;
@@ -138,7 +148,7 @@ form button:hover {
 }
 #mainheader .navbar ul li {
   text-align: center;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   font-size: 1.2rem;
 }
 #mainheader .navbar .btn {
@@ -201,7 +211,57 @@ form button:hover {
   width: 100%;
 }
 
+#teachers {
+  width: 95%;
+  margin: 0 auto;
+}
+#teachers .container .teachers-flex {
+  text-align: center;
+}
+#teachers .container .teachers-flex .flexbox-1 img {
+  border-radius: 50%;
+  width: 80%;
+}
+#teachers .container .teachers-flex .flexbox-1 .flexbox-content {
+  text-align: center;
+}
+#teachers .container .teachers-flex .flexbox-1 .flexbox-content h2 {
+  margin: 1rem;
+  font-weight: 300;
+}
+#teachers .container .teachers-flex .flexbox-1 .flexbox-content p {
+  line-height: 25px;
+  margin-bottom: 1rem;
+}
+#teachers .container .teachers-flex .flexbox-1 .flexbox-content .social-flex {
+  display: block;
+  margin: 0 auto;
+}
+#teachers .container .teachers-flex .flexbox-1 .flexbox-content .social-flex a {
+  margin-left: 20px;
+}
+
+#about {
+  width: 90%;
+  margin: 0 auto;
+}
+#about .container .about-flex {
+  gap: 90px;
+}
+#about .container .about-flex .flexbox-1 img {
+  width: 100%;
+}
+#about .container .about-flex .flexbox-2 p {
+  margin: 3rem 0;
+  line-height: 25px;
+}
+
+#account {
+  width: 60%;
+  margin: 0 auto;
+}
 #footer {
   text-align: center;
   padding: 3rem 0;
+  background: #0459c7;
 }/*# sourceMappingURL=styles.css.map */

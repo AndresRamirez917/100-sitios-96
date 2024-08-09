@@ -10,6 +10,8 @@
         }
         ul {
             display: block;
+            margin: 0 auto;
+            padding: 2rem 0;
             text-align: center;
         }   li {
             text-align: center;
@@ -32,3 +34,54 @@
         }
     }
 }
+
+//mainheader-2
+#mainheader-2 {
+    background: none;
+    margin-top: 0;
+    .navbar {
+        .logo {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+        ul {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }   li {
+            text-align: center;
+            display: inline;
+        }
+        .btn {
+            display: block;
+            margin: 0 auto;
+            margin-top: 2rem;
+            background: black;
+            color: #fff;
+            &:hover {
+                background: grey;
+                color: #000;
+            }
+        }
+        .container {
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+//teachers
+#teachers {
+    .container {
+        .teachers-flex {
+            display: block;
+            .flexbox-1 {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+//about

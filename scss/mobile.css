@@ -9,6 +9,8 @@
 }
 #mainheader .navbar ul {
   display: block;
+  margin: 0 auto;
+  padding: 2rem 0;
   text-align: center;
 }
 #mainheader .navbar li {
@@ -29,4 +31,46 @@
 #mainheader .navbar .container {
   display: block;
   text-align: center;
+}
+
+#mainheader-2 {
+  background: none;
+  margin-top: 0;
+}
+#mainheader-2 .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader-2 .navbar ul {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+#mainheader-2 .navbar li {
+  text-align: center;
+  display: inline;
+}
+#mainheader-2 .navbar .btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background: black;
+  color: #fff;
+}
+#mainheader-2 .navbar .btn:hover {
+  background: grey;
+  color: #000;
+}
+#mainheader-2 .navbar .container {
+  display: block;
+  text-align: center;
+}
+
+#teachers .container .teachers-flex {
+  display: block;
+}
+#teachers .container .teachers-flex .flexbox-1 {
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=mobile.css.map */
