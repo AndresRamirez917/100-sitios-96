@@ -92,6 +92,9 @@
 #teachers .container .teachers-flex .flexbox-1 {
   margin-bottom: 2rem;
 }
+#teachers .container .teachers-flex .flexbox-1 img {
+  width: 50%;
+}
 
 #about .container .about-flex {
   display: block;
