@@ -33,6 +33,35 @@
             text-align: center;
         }
     }
+    #showcase {
+        width: 90%;
+        margin: 0 auto;
+        .container {
+            .showcase-flex {
+                .showcase-content {
+                   .subscribe {
+                  
+                    input {
+                        display: block;
+                        margin: 0 auto;
+                       }
+                       .btn {
+                        display: block;
+                        margin: 0 auto;
+                        margin-top: 2rem;
+                        margin-bottom: 2rem;
+                       }
+                       p {
+                        color: red;
+                        text-align: justify;
+                       }
+                   }
+                  
+                }
+            }
+        }
+      
+    }
 }
 
 //mainheader-2
@@ -85,3 +114,15 @@
 }
 
 //about
+#about {
+    .container {
+        .about-flex {
+            display: block;
+            .flexbox-2 {
+                p {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

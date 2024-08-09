@@ -32,6 +32,24 @@
   display: block;
   text-align: center;
 }
+#mainheader #showcase {
+  width: 90%;
+  margin: 0 auto;
+}
+#mainheader #showcase .container .showcase-flex .showcase-content .subscribe input {
+  display: block;
+  margin: 0 auto;
+}
+#mainheader #showcase .container .showcase-flex .showcase-content .subscribe .btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#mainheader #showcase .container .showcase-flex .showcase-content .subscribe p {
+  color: red;
+  text-align: justify;
+}
 
 #mainheader-2 {
   background: none;
@@ -73,4 +91,11 @@
 }
 #teachers .container .teachers-flex .flexbox-1 {
   margin-bottom: 2rem;
+}
+
+#about .container .about-flex {
+  display: block;
+}
+#about .container .about-flex .flexbox-2 p {
+  text-align: justify;
 }/*# sourceMappingURL=mobile.css.map */
