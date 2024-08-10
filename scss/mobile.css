@@ -36,18 +36,18 @@
   width: 90%;
   margin: 0 auto;
 }
-#mainheader #showcase .container .showcase-flex .showcase-content .subscribe input {
+#mainheader #showcase .container .showcase-flex .showcase-content input {
   display: block;
   margin: 0 auto;
 }
-#mainheader #showcase .container .showcase-flex .showcase-content .subscribe .btn {
+#mainheader #showcase .container .showcase-flex .showcase-content .btn {
   display: block;
   margin: 0 auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-#mainheader #showcase .container .showcase-flex .showcase-content .subscribe p {
-  color: red;
+#mainheader #showcase .container .showcase-flex .showcase-content p {
+  width: 100%;
   text-align: justify;
 }
 
